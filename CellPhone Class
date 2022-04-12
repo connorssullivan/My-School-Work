@@ -1,0 +1,43 @@
+public class CellPhone {
+    //fields
+    private String manufact;
+    private String model;
+    private double price;
+
+
+    //constructors
+
+    public CellPhone(String manufact, String model, double price) {
+        this.manufact = manufact;
+        this.model = model;
+        this.price = price;
+    }
+
+
+    //methods
+
+
+    public String getManufact() {
+        return manufact;
+    }
+
+    public void setManufact(String manufact) {
+        this.manufact = manufact;
+    }
+
+    public String getModel() {
+        return model;
+    }
+
+    public void setModel(String model) {
+        this.model = model;
+    }
+
+    public double getRetailPrice() {
+        return price;
+    }
+
+    public void setRetailPrice(double price) {
+        this.price = price;
+    }
+}
